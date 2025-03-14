@@ -1,1 +1,1 @@
-web: python manage.py collectstatic --noinput && gunicorn shopmotos.wsgi
+web: python manage.py collectstatic --noinput && gunicorn saray.wsgi
